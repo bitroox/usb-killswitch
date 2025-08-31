@@ -4,7 +4,7 @@
 
 set -e
 
-SCRIPT_NAME="usb-killswitch"
+SCRIPT_NAME="usb-killswitch1"
 INSTALL_DIR="/usr/local/bin"
 
 echo "🔧 Installing USB Kill-Switch..."
