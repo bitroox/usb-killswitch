@@ -1,30 +1,21 @@
-# USB Kill-Switch 🔒
-_A security tool for Linux systems_  
-**Author:** bitroox  
-**License:** MIT
+# 🔒 USB Kill-Switch
+
+**USB Kill-Switch** is a Linux security tool that monitors a USB drive.  
+When the drive is removed, the system automatically **shuts down** (and can optionally attempt to wipe RAM for anti-forensics protection).  
+
+Designed for **privacy-conscious users** who want a fast kill-switch mechanism.  
 
 ---
 
-## Overview
-USB Kill-Switch is a Bash-based security utility for Debian-based Linux systems.  
-It continuously monitors for a USB device. Once the device is removed, the system will immediately **shutdown**.  
+## 📥 Installation
 
-In Secure Mode, the tool also attempts a **RAM wipe** before shutdown.
+Clone the repository and run the installer:
 
----
-
-## Features
-- 🔑 **Kill-Switch Mode** — Automatic shutdown when the USB key is removed  
-- 🔐 **Secure Mode** — Attempts to wipe RAM, then shutdown  
-- 🛠️ **Diagnostics Mode** — Test monitoring without shutdown  
-- 🎨 **User-Friendly Interface** — Colorful, clean, and easy to use  
-
----
-
-## Installation
-Clone and install:
 ```bash
 git clone https://github.com/bitroox/usb-killswitch.git
 cd usb-killswitch
 chmod +x install.sh
 ./install.sh
+
+
+This will install the tool to:
